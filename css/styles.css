@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700;800;900&family=Poppins:wght@200;300&display=swap');
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+li,
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.passport-form .form-check-input[type=radio] {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.passport-form .form-check {
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+span.required {
+    color: red;
+    /* font-weight: bold; */
+}
+
+#icon-grid p {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
